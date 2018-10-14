@@ -1,0 +1,130 @@
+<!--Author: W3layouts
+Author URL: http://w3layouts.com
+License: Creative Commons Attribution 3.0 Unported
+License URL: http://creativecommons.org/licenses/by/3.0/
+-->
+<!DOCTYPE HTML>
+<html>
+<head>
+<title>News Block Widget  Responsive Widget Template | Home :: w3layouts</title>
+<link href="css/style.css" rel="stylesheet" type="text/css" media="all"/>
+<!-- Custom Theme files -->
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" /> 
+<meta name="keywords" content="News Block Widget Responsive, Login form web template, Sign up Web Templates, Flat Web Templates, Login signup Responsive web template, Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, SonyEricsson, Motorola web design" />
+<!--google fonts-->
+<link href='//fonts.googleapis.com/css?family=Source+Sans+Pro:400,200,300,600,700,900' rel='stylesheet' type='text/css'>
+<!--js--> 
+<script src="js/jquery-1.11.0.min.js"></script>
+<!--pop-up-grid-->
+		 <script src="js/jquery.magnific-popup.js" type="text/javascript"></script>
+
+ <script>
+     $(document).ready(function () {
+         $('.popup-with-zoom-anim').magnificPopup({
+             type: 'inline',
+             fixedContentPos: false,
+             fixedBgPos: true,
+             overflowY: 'auto',
+             closeBtnInside: true,
+             preloader: false,
+             midClick: true,
+             removalDelay: 300,
+             mainClass: 'my-mfp-zoom-in'
+         });
+
+     });
+     
+     function on_inc() {
+         var news_block = document.getElementsByClassName("news-block").item(0);
+         var appendChild = "<div class=\"news-block-bottom\"><div class=\"buzz-news\"><div class=\"news-1\"><div class=\"news-text1\"><h2>News</h2></div><div class=\"reaches\"><h6>Archive</h6></div><div class=\"clear\"> </div></div><h3><a href=\"#\">At vero eos et accusamus</a></h3><p>There anyone who loves or pursues or desires to obtain pain of itself, because it is pain.</p><div class=\"news-btn-3\"><a class=\"popup-with-zoom-anim\" href=\"#small-dialog\">More</a></div></div><div class=\"buzz-img\"><a href=\"#\"><img src=\"images/mobile.jpg\" class=\"img-responsive\" alt=\"\"></a></div><div class=\"clear\"> </div></div>";
+         news_block.innerHTML = news_block.innerHTML + appendChild;
+     }
+ </script>
+
+</head>
+<body>
+<!--news-block strat here-->
+<h1>News Block Widget</h1>
+<div class="news-block">
+	<div class="news-block-top">
+		<div class="news-left">
+			<div class="news-1">
+				<div class="news-text1">
+					<h2>News</h2>
+				</div>
+				<div class="reaches">
+					<h6>Archive</h6>
+				</div>
+			   <div class="clear"> </div>
+			</div>
+			<h3><a href="#">At vero eos et accusamus</a></h3>
+			<p>There anyone who loves or pursues or desires to obtain pain of itself, because it is pain.</p>
+			<div class="news-btn-1"><a class="popup-with-zoom-anim" href="#small-dialog">More</a></div>
+		</div>
+		<div class="new-right">
+			<div class="news-1">
+				<div class="news-text1">
+					<h2>News</h2>
+				</div>
+				<div class="reaches">
+					<h6>Archive</h6>
+				</div>
+			   <div class="clear"> </div>
+			</div>
+			<a href="#"><img src="images/barger.jpg" alt="" class="img-responsive"></a>
+			<div class="news-btn-2"><a class="popup-with-zoom-anim" href="#small-dialog">More</a></div>
+		</div>
+	  <div class="clear"> </div>
+	</div>
+	<div class="news-block-bottom">
+		<div class="buzz-news">
+			<div class="news-1">
+				<div class="news-text1">
+					<h2>News</h2>
+				</div>
+				<div class="reaches">
+					<h6>Archive</h6>
+				</div>
+			   <div class="clear"> </div>
+			</div>
+			<h3><a href="#">At vero eos et accusamus</a></h3>
+			<p>There anyone who loves or pursues or desires to obtain pain of itself, because it is pain.</p>
+			<div class="news-btn-3"><a class="popup-with-zoom-anim" href="#small-dialog">More</a></div>
+		</div>
+		<div class="buzz-img">
+			<a href="#"><img src="images/mobile.jpg" class="img-responsive" alt=""></a>
+		</div>
+	  <div class="clear"> </div>
+	</div>
+</div>
+
+
+<div>
+    <button type="button" onclick="on_inc()">增加</button>
+
+</div>
+<!---->
+<!---->
+<div id="popup">
+				 <div id="small-dialog" class="mfp-hide">
+					<div class="pop_up">
+					 	<div class="payment-online-form-left">						 							
+							<h4>News</h4>
+							<p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae.</p>								
+								<div class="clear"></div>
+						</div>
+		  			</div>
+				</div>
+</div>
+								
+<!--pop-up-grid-->
+<!-- /Portfolio Modals -->
+<div class="copy-right">
+			<p>© 2016 News Block Widget. All rights reserved | Template by  <a href="http://w3layouts.com/" target="_blank">  W3layouts </a></p>
+</div>
+
+<!--news block end here-->
+</body>
+</html>
